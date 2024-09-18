@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Example Android Test Suite">
+
+    <listeners>
+        <listener class-name="org.example.base.TestListener"/>
+    </listeners>
+
+    <test name="ExampleMobileAndroidTest">
+        <classes>
+            <class name="org.example.mobile.android.ExampleMobileAndroidTest"/>
+        </classes>
+    </test>
+
+</suite>
